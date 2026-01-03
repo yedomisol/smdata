@@ -21,7 +21,7 @@
 - 이미 수강한 프로그램 자동 제외
 - 추천 사유를 함께 제공하는 설명 가능한 추천
 
----
+
 
 ## 🧠 추천 로직 요약
 
@@ -68,7 +68,7 @@
 - type : 프로그램 유형
 - core_1 ~ core_8 : 핵심역량 지표
 
----
+
 
 ## 🧪 실행 환경
 
@@ -79,12 +79,12 @@
   - numpy
   - scikit-learn
 
----
+
 
 ## 💡 추천 결과 주요 컬럼
 
-program_name : 추천 프로그램명
-content_sim : 콘텐츠 유사도 점수
-reason : 추천 사유
-duration_cat : 프로그램 기간 유형
-core : 관련 핵심역량 요약
+- program_name : 추천 프로그램명
+- content_sim : 콘텐츠 유사도 점수
+- reason : 추천 사유
+- duration_cat : 프로그램 기간 유형
+- core : 관련 핵심역량 요약
